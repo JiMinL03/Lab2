@@ -1,0 +1,45 @@
+2024-03-30 15:51:36.664 [info] Extension host with pid 1882 started
+2024-03-30 15:51:36.681 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-30 15:51:36.725 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-30 15:51:36.725 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-30 15:51:36.829 [info] Eager extensions activated
+2024-03-30 15:51:36.830 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-30 15:51:36.830 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-30 15:53:05.241 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-30 15:53:53.921 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:c'
+2024-03-30 15:54:37.124 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-30 15:54:48.683 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-30 15:54:58.345 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-30 15:57:31.832 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-30 15:57:37.437 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-30 15:57:41.071 [error] CodeExpectedError: Unable to write to Workspace Settings because no workspace is opened. Please open a workspace first and try again.
+    at f.y (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:15834)
+    at f.E (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:18545)
+    at f.n (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:12947)
+    at Object.factory (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:12847)
+    at M.j (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:148:17729)
+    at vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:148:17639
+    at new Promise (<anonymous>)
+    at M.queue (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:148:17578)
+    at f.writeConfiguration (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:12816)
+    at B.Hb (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:37624)
+    at async Promise.all (index 0)
+    at async Object.ne [as settled] (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:148:24000)
+    at async B.updateValue (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:25775)
+2024-03-30 15:57:42.600 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-30 15:57:44.665 [error] CodeExpectedError: Unable to write to Workspace Settings because no workspace is opened. Please open a workspace first and try again.
+    at f.y (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:15834)
+    at f.E (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:18545)
+    at f.n (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:12947)
+    at Object.factory (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:12847)
+    at M.j (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:148:17729)
+    at vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:148:17639
+    at new Promise (<anonymous>)
+    at M.queue (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:148:17578)
+    at f.writeConfiguration (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:12816)
+    at B.Hb (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:37624)
+    at async Promise.all (index 0)
+    at async Object.ne [as settled] (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:148:24000)
+    at async B.updateValue (vscode-file://vscode-app/c:/Users/LG/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:25775)
+2024-03-30 15:57:58.221 [info] Extension host terminating: received terminate message from renderer
+2024-03-30 15:57:58.281 [info] Extension host with pid 1882 exiting with code 0

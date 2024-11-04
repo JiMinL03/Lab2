@@ -1,0 +1,14 @@
+apple
+banana
+1234
+grape
+Peach
+orange
+kiwi
+2.718
+0.123
+cat
+dog
+Elephant
+zebra
+le
